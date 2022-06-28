@@ -16,6 +16,7 @@ function preFizz(n) {
  return arr;
 }
 
+// Test cases:
 console.log(preFizz(1)); // should return[1], `Array should be from 1 to 1`
 console.log(preFizz(2)); // should return[1,2], `Array should be from 1 to 2`
 console.log(preFizz(3)); // should return[1,2,3], `Array should be from 1 to 3`
